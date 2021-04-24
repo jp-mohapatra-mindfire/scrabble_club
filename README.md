@@ -24,8 +24,8 @@ bundle install
 3. Migrate database
 
 ```
-	rake db:create
-   	rake db:migrate
+rake db:create
+rake db:migrate
 ```	
 4. run application
 ```
