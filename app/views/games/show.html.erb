@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @game.name %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @game.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @game.end_date %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @game.place %>
+</p>
+
+<%= sanitize link_to 'Edit', edit_game_path(@game) %> |
+<%= sanitize link_to 'Back', games_path %>

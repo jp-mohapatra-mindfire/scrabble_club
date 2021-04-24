@@ -1,0 +1,24 @@
+<h3>LeaderBoard</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>No of Game</th>
+      <th>Aaverage Score</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @players.each do |player| %>
+     <tr>
+      <td><%= player.name %></td>
+      <td><%= player.scores.count %></td>
+      <% 
+        score_values = player.scores.map(&:value)
+      %>
+      <td><%= score_values.sum / score_values.size %></td>
+    </tr>
+  <%end%>
+  </tbody>
+</table>

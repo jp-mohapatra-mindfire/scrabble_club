@@ -1,0 +1,18 @@
+/* Cyborg
+ * Bootswatch
+ *= require_self
+ *= require cyborg/loader
+ *= require cyborg/bootswatch
+*/
+
+
+
+.jumbotron {
+	margin-top: 15rem;
+}
+.navbar-brand {
+	color: white !important;
+}
+.field {
+	display: flex;
+}
