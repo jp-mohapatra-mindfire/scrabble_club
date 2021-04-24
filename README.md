@@ -34,9 +34,9 @@ rails s
 
 ## Implemented features
 
-1. Create new player
-2. Create new game with players
-	A member’s profile screen showing their
+1. Create new player.
+2. Create new game with players:
+	* A member’s profile screen showing their
 		* number of wins
 		* number of losses
 		* their average score
@@ -47,7 +47,7 @@ members who have played at least 10 matches.
 All recorded scrabble games are head to head matches between 2 players, the
 player with the highest score at the end of the game wins.
 
-##  Security prevention details
+##  Security prevention details:
 	
 	* Security HTTP Headers
 	* Referrer-Policy Security Header
