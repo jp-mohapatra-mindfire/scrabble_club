@@ -35,13 +35,13 @@ rails s
 ## Implemented features
 
 1. Create new player.
-2. Create new game with players:
-	* A member’s profile screen showing their
-		* number of wins
-		* number of losses
-		* their average score
-		* their highest score, when and where it was scored, and against whom
-3. A leader board screen to list the members with the top 10 average scores, for those
+2. Create new game with players.
+3. A member’s profile screen showing their:
+	* number of wins
+	* number of losses
+	* their average score
+	* their highest score, when and where it was scored, and against whom
+4. A leader board screen to list the members with the top 10 average scores, for those
 members who have played at least 10 matches. 
 
 All recorded scrabble games are head to head matches between 2 players, the
